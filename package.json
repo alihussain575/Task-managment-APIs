@@ -24,7 +24,7 @@
   "devDependencies": {
     "env-cmd": "8.0.2",
     "jest": "^27.5.1",
-    "nodemon": "1.18.9",
+    "nodemon": "^2.0.15",
     "supertest": "3.4.1"
   }
 }
