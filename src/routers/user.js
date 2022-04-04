@@ -17,29 +17,6 @@ router.post('/users', async (req, res) => {
     successLog(users);
     const token = await users.generateAuthToken();
 
-    // let transporter = nodemailer.createTransport({
-    //   host: 'smtp.ethereal.email',
-    //   port: 587,
-    //   secure: false,
-    //   auth: {
-    //     user: 'alihussainirfan575@gmail.com',
-    //     pass: 'alihussainkhan',
-    //   },
-    // });
-
-    // let mailOptions = {
-    //   from: 'alihussainirfan575@gmail.com',
-    //   to: `${req.users.email}`,
-    //   subject: 'description',
-    //   text: `details:`,
-    //   html: `<>
-    //   <h1>Welcome to Task Manager</h1>
-    //   <p>Hello ${req.users.name} </br>
-    //     Your Account was created
-    //   </p>
-    //   </>`,
-    // };
-
     res.status(201).send({
       users,
       token,
