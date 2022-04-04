@@ -14,12 +14,12 @@
     "dotenv": "^16.0.0",
     "express": "4.16.4",
     "jsonwebtoken": "8.4.0",
-    "mongodb": "3.1.10",
-    "mongoose": "5.3.16",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.7.5",
     "multer": "1.4.1",
     "nodemailer": "^6.7.3",
     "sharp": "^0.30.3",
-    "validator": "10.9.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "env-cmd": "8.0.2",
