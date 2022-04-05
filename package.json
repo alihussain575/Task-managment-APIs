@@ -14,17 +14,17 @@
     "dotenv": "^16.0.0",
     "express": "4.16.4",
     "jsonwebtoken": "8.4.0",
-    "mongodb": "^3.1.13",
-    "mongoose": "^5.7.5",
+    "mongodb": "3.1.10",
+    "mongoose": "5.3.16",
     "multer": "1.4.1",
     "nodemailer": "^6.7.3",
     "sharp": "^0.30.3",
-    "validator": "^13.7.0"
+    "validator": "10.9.0"
   },
   "devDependencies": {
     "env-cmd": "8.0.2",
-    "jest": "^27.5.1",
-    "nodemon": "^2.0.15",
+    "jest": "23.6.0",
+    "nodemon": "1.18.9",
     "supertest": "3.4.1"
   }
 }

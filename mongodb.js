@@ -1,7 +1,6 @@
 const { MongoClient, ObjectID } = require('mongodb');
 
-const uri =
-  'mongodb+srv://ali:passpass@nodeprac.wiljh.mongodb.net/test?retryWrites=true&w=majority';
+const uri = process.env.MONGODB_URI;
 
 const databaseName = 'test';
 
